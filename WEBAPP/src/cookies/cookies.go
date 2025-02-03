@@ -1,6 +1,10 @@
 package cookies
 
-import "net/http"
+import (
+	"net/http"
+
+	"github.com/gorilla/securecookie"
+)
 
 var s *securecookie.SecureCookie
 
